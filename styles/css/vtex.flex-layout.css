@@ -1,0 +1,15 @@
+/*
+    Esta regla permite que las columnas se comporten como si existieran dos filas
+    en la versión tablet y desktop
+*/
+.flexRowContent--flex-wrap {
+    flex-wrap: wrap;
+}
+
+/*
+    Establece el fondo de color negro en el footer
+    El color de texto blanco se establece en la propiedad textColor en el bloque rich-text#copyright
+*/
+.flexRow--black {
+    background-color: #000;
+}

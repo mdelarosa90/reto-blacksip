@@ -1,0 +1,6 @@
+/*
+    Establece un ancho máximo de 1280px para las filas
+*/
+.container {
+    max-width: 1280px;
+}
