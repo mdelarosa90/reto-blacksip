@@ -1,0 +1,40 @@
+{
+    "flex-layout.col#service-3": {
+        "children": [
+            "image#service3",
+            "rich-text#service3",
+            "link#service3"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "paddingLeft": 7,
+            "paddingRight": 7
+        }
+    },
+    "image#service3": {
+        "props": {
+            "src": "https://blacksip.com/wp-content/uploads/2020/12/iconos-serv2.png",
+            "alt": "Service 3"
+        }
+    },
+    "rich-text#service3": {
+        "props":{
+            "text": "**E-commerce y omni-channel commerce**",
+            "textPosition": "CENTER",
+            "textAlignment": "CENTER",
+            "textColor": "c-on-muted-6"
+        }
+    },
+    "link#service3": {
+        "props": {
+            "displayMode": "button",
+            "buttonProps": {
+                "variant": "secondary",
+                "size": "small"
+            },
+            "href": "https://blacksip.com/servicios/estrategia-y-transformacion-digital",
+            "label": "+ Información"
+        }
+    }
+}

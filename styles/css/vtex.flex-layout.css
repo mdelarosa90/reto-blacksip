@@ -13,3 +13,7 @@
 .flexRow--black {
     background-color: #000;
 }
+
+.flexRow--bg-gray {
+    background-color: #e6e6e6;
+}

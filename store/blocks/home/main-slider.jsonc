@@ -6,7 +6,8 @@
         "props": {
             "blockClass": [
                 "no-container" // esta clase probablemente le ayude a resolver uno de los puntos del reto del día 1
-            ]
+            ],
+            "fullWidth": true
         }
     },
     "slider-layout#main-slider": {

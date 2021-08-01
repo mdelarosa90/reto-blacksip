@@ -1,0 +1,34 @@
+{
+    "flex-layout.row#services": {
+        "children": [
+            "flex-layout.col#services"
+        ],
+        "props": {
+            "blockClass": ["bg-gray"],
+            "paddingTop": 5,
+            "paddingBottom": 5
+        }
+    },
+    "flex-layout.col#services": {
+        "children": [
+            "flex-layout.row#services-row-1",
+            "flex-layout.row#services-row-2"
+        ]
+    },
+    "flex-layout.row#services-row-1": {
+        "children": [
+            "flex-layout.col#service-1",
+            "flex-layout.col#service-2",
+            "flex-layout.col#service-3",
+            "flex-layout.col#service-4"
+        ]
+    },
+    "flex-layout.row#services-row-2": {
+        "children": [
+            "flex-layout.col#service-5",
+            "flex-layout.col#service-6",
+            "flex-layout.col#service-7",
+            "flex-layout.col#service-8"
+        ]
+    }
+}

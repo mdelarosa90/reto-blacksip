@@ -1,0 +1,40 @@
+{
+    "flex-layout.col#service-6": {
+        "children": [
+            "image#service6",
+            "rich-text#service6",
+            "link#service6"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "paddingLeft": 7,
+            "paddingRight": 7
+        }
+    },
+    "image#service6": {
+        "props": {
+            "src": "https://blacksip.com/wp-content/uploads/2020/12/iconos-serv5.png",
+            "alt": "Service 6"
+        }
+    },
+    "rich-text#service6": {
+        "props":{
+            "text": "**Ventas y \n CRM**",
+            "textPosition": "CENTER",
+            "textAlignment": "CENTER",
+            "textColor": "c-on-muted-6"
+        }
+    },
+    "link#service6": {
+        "props": {
+            "displayMode": "button",
+            "buttonProps": {
+                "variant": "secondary",
+                "size": "small"
+            },
+            "href": "https://blacksip.com/servicios/estrategia-y-transformacion-digital",
+            "label": "+ Información"
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "flex-layout.col#service-5": {
+        "children": [
+            "image#service5",
+            "rich-text#service5",
+            "link#service5"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "paddingLeft": 7,
+            "paddingRight": 7
+        }
+    },
+    "image#service5": {
+        "props": {
+            "src": "https://blacksip.com/wp-content/uploads/2020/12/iconos-serv4.png",
+            "alt": "Service 5"
+        }
+    },
+    "rich-text#service5": {
+        "props":{
+            "text": "**Interfaz y experiencia \n de usuario**",
+            "textPosition": "CENTER",
+            "textAlignment": "CENTER",
+            "textColor": "c-on-muted-6"
+        }
+    },
+    "link#service5": {
+        "props": {
+            "displayMode": "button",
+            "buttonProps": {
+                "variant": "secondary",
+                "size": "small"
+            },
+            "href": "https://blacksip.com/servicios/estrategia-y-transformacion-digital",
+            "label": "+ Información"
+        }
+    }
+}
