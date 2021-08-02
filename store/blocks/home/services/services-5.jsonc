@@ -33,7 +33,8 @@
                 "variant": "secondary",
                 "size": "small"
             },
-            "href": "https://blacksip.com/servicios/estrategia-y-transformacion-digital",
+            "blockClass": ["custom-button"],
+            "href": "https://blacksip.com/servicios/experiencia-de-usuario/",
             "label": "+ Información"
         }
     }

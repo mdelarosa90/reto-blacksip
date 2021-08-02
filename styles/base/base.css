@@ -1,0 +1,3 @@
+.wrapper--stuck > .container--sticky-header {
+    background: brown !important;
+}

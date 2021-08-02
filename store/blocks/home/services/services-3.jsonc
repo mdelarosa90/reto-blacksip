@@ -20,7 +20,7 @@
     },
     "rich-text#service3": {
         "props":{
-            "text": "**E-commerce y omni-channel commerce**",
+            "text": "**E-commerce y \n omni-channel commerce**",
             "textPosition": "CENTER",
             "textAlignment": "CENTER",
             "textColor": "c-on-muted-6"
@@ -33,7 +33,8 @@
                 "variant": "secondary",
                 "size": "small"
             },
-            "href": "https://blacksip.com/servicios/estrategia-y-transformacion-digital",
+            "blockClass": ["custom-button"],
+            "href": "https://blacksip.com/servicios/e-commerce/",
             "label": "+ Información"
         }
     }

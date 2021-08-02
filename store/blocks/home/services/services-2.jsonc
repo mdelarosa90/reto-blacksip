@@ -20,7 +20,7 @@
     },
     "rich-text#service2": {
         "props":{
-            "text": "**Estrategia y transformación digital**",
+            "text": "**Estrategia y \n transformación digital**",
             "textPosition": "CENTER",
             "textAlignment": "CENTER",
             "textColor": "c-on-muted-6"
@@ -33,6 +33,7 @@
                 "variant": "secondary",
                 "size": "small"
             },
+            "blockClass": ["custom-button"],
             "href": "https://blacksip.com/servicios/estrategia-y-transformacion-digital",
             "label": "+ Información"
         }

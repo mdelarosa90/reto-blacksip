@@ -8,7 +8,10 @@
     "header-layout.desktop": {
         "children": [
             "sticky-layout#desktop"
-        ]
+        ],
+        "props": {
+            "blockClass": ["bg-white"]
+        }
     },
     "sticky-layout#desktop": {
         "props": {
@@ -23,8 +26,7 @@
             "horizontalAlign": "center",
             "verticalAlign": "center",
             "preventHorizontalStretch": true,
-            "preventVerticalStretch": false,
-            "fullWidth": true
+            "preventVerticalStretch": false
         },
         "children": [
             "flex-layout.col#logo-desktop",

@@ -1,0 +1,5 @@
+@import url("../base/base.css");
+
+.container--sticky-header {
+    background: white
+}

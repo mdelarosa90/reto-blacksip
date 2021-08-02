@@ -6,7 +6,7 @@
         "props": {
             "blockClass": ["bg-gray"],
             "paddingTop": 5,
-            "paddingBottom": 5
+            "paddingBottom": 7
         }
     },
     "flex-layout.col#services": {
@@ -29,6 +29,9 @@
             "flex-layout.col#service-6",
             "flex-layout.col#service-7",
             "flex-layout.col#service-8"
-        ]
+        ],
+        "props": {
+            "paddingTop": 5
+        }
     }
 }

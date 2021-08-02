@@ -1,0 +1,12 @@
+.buttonLink--custom-button {
+    border-radius: 2em;
+    background-color: #2a2a2a;
+    color: white;
+    padding: 14px !important;
+}
+
+.buttonLink--custom-button:hover {
+    background-color: white;
+    color: #2a2a2a;
+    transition: all 500ms ease-in-out;
+}
