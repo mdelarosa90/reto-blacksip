@@ -47,7 +47,9 @@
     "vtex.sticky-layout": "0.x",
     "vtex.add-to-cart-button": "0.x",
     "vtex.store-link": "0.x",
-    "vtex.search": "2.x"
+    "vtex.search": "2.x",
+    "vtex.product-price": "1.x",
+    "blacksipqa.example-1": "0.x"
   },
   "peerDependencies": {
     "vtex.wish-list": "1.x"

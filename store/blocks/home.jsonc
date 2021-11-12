@@ -11,7 +11,9 @@
             // .desktop > 1024        Solo desktop
             "responsive-layout.desktop#partners",
             "responsive-layout.mobile#partners",
-            "flex-layout.row#services"
+            "flex-layout.row#services",
+            "flex-layout.row#productos-recomendados",
+            "flex-layout.row#shelf-productos-recomendados"
         ]
     },
     "flex-layout.row#copy": {
@@ -27,6 +29,11 @@
             "text": "Somos una empresa experta en servicios de comercio electrónico enfocada en llevar a nuestros clientes a ser mejores vendiendo a través de canales digitales.",
             "textAlignment": "CENTER",
             "blockClass": "home-copy"
+        }
+    },
+    "example-1": {
+        "props": {
+            "label": "Test"
         }
     }
 }
